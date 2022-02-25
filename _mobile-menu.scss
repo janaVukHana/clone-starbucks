@@ -1,0 +1,51 @@
+.mobile-menu {
+  position: absolute;
+  top: calc(100% + 2px);
+  right: -100%;
+  width: 80vw;
+  height: 100vh;
+  padding: 2rem 0;
+  background-color: $white;
+  font-size: 19px;
+  transition: 1s;
+
+  &__link {
+    padding: 1rem 1.5rem;
+    color: $dark;
+  }
+
+  &__hr {
+    margin: 2rem 1.5rem;
+  }
+
+  &__buttons {
+    margin: 0 1.5rem;
+  }
+
+  &__log {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__location {
+    font-size: 14px;
+    font-weight: 600;
+    color: $dark;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      color: $starbucks-green;
+    }
+  }
+
+  .icon {
+    margin-right: 1rem;
+  }
+}
+
+// show/hide mobile menu
+.showMenu {
+  right: 0;
+}

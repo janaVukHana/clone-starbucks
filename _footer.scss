@@ -1,0 +1,145 @@
+// footer
+.footer {
+  border-top: 2px solid $light-gray;
+  padding: 2rem 0;
+
+  &__container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  &__row {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__col {
+    max-width: 190px;
+    position: relative;
+  }
+
+  &__col-title {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .icon-arrow {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    visibility: hidden;
+    transition: transform 1s;
+
+    &:hover {
+      background-color: $light-gray;
+    }
+  }
+
+  &__link {
+    padding: 8px 0;
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.58);
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  &__terms {
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+
+    &-item {
+      border-right: 1px solid $dark;
+      padding: 0 1rem;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        border: 0;
+      }
+    }
+
+    &-link {
+      color: $black;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__copyright {
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    &__row {
+      flex-direction: column;
+    }
+
+    &__col {
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    .icon-arrow {
+      visibility: visible;
+    }
+
+    &__links {
+      max-height: 0px;
+      transition: 2s;
+    }
+
+    &__terms {
+      font-size: 16px;
+      padding: 1rem 0;
+      align-items: flex-start;
+      flex-direction: column;
+
+      &-item {
+        border: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    &__col-title {
+      font-size: 16px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
+}
+
+// js classes
+.show-links {
+  max-height: 1000px;
+}
+
+.rotate-arrow {
+  transform: rotate(-180deg);
+}

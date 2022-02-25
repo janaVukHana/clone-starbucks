@@ -1,0 +1,64 @@
+.hamburger-menu {
+  background-color: transparent;
+  position: relative;
+  width: 32px;
+  height: 22px;
+  border: none;
+  cursor: pointer;
+  display: none;
+
+  &:hover .line {
+    background-color: $starbucks-green;
+  }
+}
+
+.line {
+  width: 32px;
+  height: 2px;
+  background-color: $dark;
+  border-radius: 22px;
+  margin: 0 auto;
+}
+
+.line-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.line-middle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.line-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+// js classes
+.line-top-js {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.line-middle-js {
+  display: none;
+}
+
+.line-bottom-js {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+  }
+}

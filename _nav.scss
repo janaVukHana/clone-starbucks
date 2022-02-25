@@ -1,0 +1,86 @@
+// nav
+.nav {
+  position: relative;
+  box-shadow: 2px 2px 4px $light-gray;
+  line-height: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__brand {
+    width: 50px;
+    height: 50px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__link {
+    color: $black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+    &--lower {
+      text-transform: none;
+      letter-spacing: -0.16px;
+    }
+
+    &:hover {
+      color: $starbucks-green;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  &__log {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+// responsivnesssss.....
+@media screen and (max-width: 768px) {
+  .nav {
+    &__brand {
+      width: 38px;
+      height: 38px;
+    }
+
+    &__links {
+      display: none;
+    }
+
+    &__buttons {
+      display: none;
+    }
+  }
+}

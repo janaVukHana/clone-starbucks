@@ -1,0 +1,40 @@
+.btn {
+  background-color: transparent;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 7px 16px;
+  border: 1px solid $black;
+  border-radius: 50px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+
+  &--lg {
+    font-size: 16px;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.12);
+    }
+  }
+
+  &--blue-hov:hover {
+    background-color: rgba(30, 57, 50, 0.1);
+  }
+
+  &--dark {
+    background-color: $black;
+    color: $white;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  &--white {
+    border-color: $white;
+    color: $white;
+  }
+}
