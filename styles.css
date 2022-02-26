@@ -1,10 +1,10 @@
 .btn {
   background-color: transparent;
   color: #000;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.2;
-  padding: 7px 16px;
+  padding: 0.438rem 1rem;
   border: 1px solid #000;
   border-radius: 50px;
 }
@@ -111,7 +111,7 @@
 .nav__menu {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 .nav__brand {
   width: 50px;
@@ -120,11 +120,11 @@
 .nav__links {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 .nav__link {
   color: #000;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -139,17 +139,17 @@
 .nav__buttons {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
 }
 .nav__buttons-link {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .nav__log {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -172,7 +172,7 @@
   height: 100vh;
   padding: 2rem 0;
   background-color: #fff;
-  font-size: 19px;
+  font-size: 1.188rem;
   transition: 1s;
 }
 .mobile-menu__link {
@@ -191,7 +191,7 @@
   gap: 1rem;
 }
 .mobile-menu__location {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #242424;
   display: flex;
@@ -235,7 +235,7 @@
   flex: 1 0 50%;
 }
 .box__text {
-  padding: 32px 24px;
+  padding: 2rem 1.5rem;
 }
 .box__content {
   display: flex;
@@ -249,7 +249,7 @@
   max-width: 480px;
 }
 .box__title {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
 }
 .box__title--sm {
@@ -258,24 +258,24 @@
 }
 .box__description {
   margin: 2rem 0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .box__description--sm {
-  font-size: 19px;
+  font-size: 1.188rem;
 }
 
 .note {
   text-align: center;
   max-width: 660px;
   margin: 4rem auto 2rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #000;
   font-weight: 400;
 }
 
 @media screen and (max-width: 1024px) {
   .box__title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -293,14 +293,14 @@
   }
   .box__description {
     margin: 2rem 0;
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .box__description--sm {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .note {
-    font-size: 13px;
+    font-size: 0.813rem;
   }
 }
 .footer {
@@ -313,16 +313,16 @@
 }
 .footer__row {
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 .footer__col {
   max-width: 190px;
   position: relative;
 }
 .footer__col-title {
-  font-size: 19px;
+  font-size: 1.188rem;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -344,14 +344,14 @@
 }
 .footer__link {
   padding: 8px 0;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   color: rgba(0, 0, 0, 0.58);
 }
 .footer__link:hover {
   color: #000;
 }
 .footer__terms {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.2;
   display: flex;
   align-items: center;
@@ -375,7 +375,7 @@
 }
 .footer__copyright {
   color: rgba(0, 0, 0, 0.58);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -394,7 +394,7 @@
     transition: 2s;
   }
   .footer__terms {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 0;
     align-items: flex-start;
     flex-direction: column;
@@ -407,14 +407,14 @@
 }
 @media screen and (max-width: 768px) {
   .footer__col-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer__link {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 .show-links {
-  max-height: 1000px;
+  max-height: 500px;
 }
 
 .rotate-arrow {
@@ -463,7 +463,7 @@ h3 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   letter-spacing: 2px;
   font-weight: 600;
 }
@@ -496,7 +496,7 @@ img {
 
 @media screen and (max-width: 1024px) {
   h1 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }
 

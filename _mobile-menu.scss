@@ -6,7 +6,7 @@
   height: 100vh;
   padding: 2rem 0;
   background-color: $white;
-  font-size: 19px;
+  font-size: 1.188rem;
   transition: 1s;
 
   &__link {
@@ -29,7 +29,7 @@
   }
 
   &__location {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: $dark;
     display: flex;

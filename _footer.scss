@@ -10,7 +10,7 @@
 
   &__row {
     display: flex;
-    gap: 32px;
+    gap: 2rem;
   }
 
   &__col {
@@ -19,9 +19,9 @@
   }
 
   &__col-title {
-    font-size: 19px;
+    font-size: 1.188rem;
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +46,7 @@
 
   &__link {
     padding: 8px 0;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     color: rgba(0, 0, 0, 0.58);
 
     &:hover {
@@ -55,7 +55,7 @@
   }
 
   &__terms {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.2;
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@
   }
   &__copyright {
     color: rgba(0, 0, 0, 0.58);
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 
@@ -109,7 +109,7 @@
     }
 
     &__terms {
-      font-size: 16px;
+      font-size: 1rem;
       padding: 1rem 0;
       align-items: flex-start;
       flex-direction: column;
@@ -126,18 +126,18 @@
 @media screen and (max-width: 768px) {
   .footer {
     &__col-title {
-      font-size: 16px;
+      font-size: 1rem;
     }
 
     &__link {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 }
 
 // js classes
 .show-links {
-  max-height: 1000px;
+  max-height: 500px;
 }
 
 .rotate-arrow {
